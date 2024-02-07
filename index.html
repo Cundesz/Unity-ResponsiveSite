@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merge+One&display=swap">
+    <title>Unity</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png" class="logo">
+        <ul>
+            <a href="#"><li>INICIO</li></a>
+            <a href="#"><li>AMIGOS</li></a>
+            <a href="#"><li>MERCADO</li></a>
+            <a href="#"><li>SUPORTE</li></a>
+        </ul>
+        <div id="log">
+            <a href="#" id="login-btn">
+                <a href="login.html">
+                    <li>Ja tem uma conta?</li>
+                </a>
+            </a>
+            <a href="login.html"><img src="/assets/images/login.png" id="login-ft"></a>
+        </div>
+        
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <div class="img_container">
+                <img src="/assets/images/fortnite_trabalho.png" style="width:100%; height: 100%;">
+            </div>
+            <div class="text">Fortnite</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <div class="img_container">
+                <img src="/assets/images/clubpenguin_trabalho.png" style="width:100%; height: 100%;">
+            </div>
+            <div class="text">Club Penguin</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <div class="img_container">
+                <img src="/assets/images/mario_trabalho.png" style="width:100%; height: 100%;">
+            </div>
+            <div class="text">Super Mario Galaxy</div>
+
+        </div>
+        <div class="dot_container" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div id="container-promocoes">
+        <div id="generos-container">
+            <div id="header-promo">
+                <h1 id="generos-header">GÊNEROS</h1>
+            </div>
+            <div id="generos">
+                <div class="generos-tipos">
+                    <h3>Acesso<br>antecipado</h3>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Aventura</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Ação</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Casual</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Corrida</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Esportes</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Estratégia</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Indie</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Multijogador<br>Massivo</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>MMORPG</h2>
+                </div>
+                <div class="generos-tipos">
+                    <h3>Simulação</h2>
+                </div>
+            </div>
+        </div>
+        <div id="promocoes-principal">
+            <div id="emcima">
+                <img src="./assets/images/layers-of-fear.png" id="imagem-fear">
+                <div id="texto-fear">
+                    <h2>Encare uma loucura<br>arrepiante que se estende<br>por gerações. Sobreviva<br>aos terrores inexplicáveis<br>na pele de artistas<br>obcecados por suas obras<br>entre a sanidade e a loucura.</h2>
+                    <h1 class="saiba-mais">Saiba mais</h1>
+                </div>
+            </div>
+            <div id="embaixo">
+                <div class="topnav">
+                    <a class="active" >LANÇAMENTOS</a>
+                    <a>PROMOÇOES</a>
+                    <a>GRATUITOS</a>
+                    <input type="text" placeholder="O que você procura?">
+                </div>
+                <div id="jogos-container">
+                    <div class="jogos">
+                        <img src="./assets/images/mogeko.png" class="jogos-imagem">
+                        <div class="jogos-texto">
+                            <h1 class="jogos-titulo">CASTELO MOGEKO</h1>
+                            <p class="jogos-descricao">Yonaka, uma estudante do colegial, pega o trem para voltar para casa e reencontrar seu<br>irmão que há muito tempo não via, acaba dormindo, passando do ponto e parando em<br>Mogeko, um lugar totalmente estranho. E o que ela encontra pelo caminho é mais ainda.</p>
+                        </div>
+                        <a href="/compras.html"><h1 class="jogos-preco">R$25,50</h1></a>
+                    </div>
+                    <div class="jogos">
+                        <img src="./assets/images/hollow.png" class="jogos-imagem">
+                        <div class="jogos-texto">
+                            <h1 class="jogos-titulo">HOLLOW KNIGHT</h1>
+                            <p class="jogos-descricao">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino<br> arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas<br> malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão.</p>
+                        </div>
+                        <a href="/compras.html"><h1 class="jogos-preco">R$40,00</h1></a>
+                    </div>
+                    <div class="jogos">
+                        <img src="./assets/images/skyrim.png" class="jogos-imagem">
+                        <div class="jogos-texto">
+                            <h1 class="jogos-titulo">SKYRIM SPECIAL EDITION</h1>
+                            <p class="jogos-descricao">Com uma diversa possibilidade de escolhas,  sendo de customização de<br> personagem, habilidades diversas, guildas e um vasto mundo aberto, Skyrim é<br> um jogo que irá surpreender por sua imersão.</p>
+                        </div>
+                        <a href="/compras.html"><h1 class="jogos-preco">R$149,00</h1></a>
+                    </div>
+                </div>
+            </div>
+            <div id="sobre">
+                <ul class="sobre-ul">
+                    <a><li><</li></a>
+                    <a><li class="num">1</li></a>
+                    <a><li class="num">2</li></a>
+                    <a><li class="num">3</li></a>
+                    <a><li class="num">...</li></a>
+                    <a><li class="num">97</li></a>
+                    <a><li>></li></a>
+                </ul>
+                <div id="sobre-nos">
+                    <img src="./assets/images/logo.png" class="logo">
+                    <p>© 2023 Unity. Todos os direitos reservados. Todas as marcas comerciais são<br> propriedade dos respetivos proprietários.</p>
+                    <p>Contato : unity@games.br</p>
+                    <div id="socials">
+                        <a href="https://www.facebook.com/unityjogos" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/unityjogos" class="fa fa-instagram"></a>
+                        <a href="https://www.twitter.com/unityjogos" class="fa fa-twitter"></a>
+                        <a href="https://www.pinterest.com/unityjogos" class="fa fa-pinterest"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="amigos-container">
+            <div id="amigos-header">
+                <h1 id="amigos">AMIGOS</h1>
+            </div>
+        
+            <ul class="lista-amigos">
+                <li class="amigo">
+                    <div class="foto-perfil"><img src="/assets/images/aroundyou.png" alt="around you"></div>
+                    <div class="info-amigo">
+                        <p class="nome-amigo">around you</p>
+                        <div class="online"></div>
+                    </div>
+                </li> 
+            </ul>
+            <ul class="lista-amigos">
+                <li class="amigo">
+                    <div class="foto-perfil"><img src="./assets/images/cundesz.png" alt="cundesz"></div>
+                    <div class="info-amigo">
+                        <p class="nome-amigo">cundesz</p>
+                        <div class="online"></div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lista-amigos">
+                <li class="amigo">
+                    <div class="foto-perfil"><img src="./assets/images/aq foi mb.png" alt="aq foi mb"></div>
+                    <div class="info-amigo">
+                        <p class="nome-amigo">aq foi mb</p>
+                        <div class="ocupado"></div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lista-amigos">
+                <li class="amigo">
+                    <div class="foto-perfil"><img src="./assets/images/sqqxwc.png" alt="sqqxwc"></div>
+                    <div class="info-amigo">
+                        <p class="nome-amigo">sqqxwc</p>
+                        <div class="ausente"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
